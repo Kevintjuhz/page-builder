@@ -1,18 +1,18 @@
 {
-  "name": "page-builder",
+  "name": "voyager-pagebuilder",
   "description": "This is my first hook just to try it out.",
   "require": {
     "larapack/hooks": "~1.0"
   },
   "autoload": {
     "psr-4": {
-      "PageBuilder\\": "src/"
+      "VoyagerPageBuilder\\": "src/"
     }
   },
   "extra": {
     "hook": {
       "providers": [
-        "PageBuilder\\PageBuilderServiceProvider"
+        "VoyagerPageBuilder\\VoyagerPageBuilderServiceProvider"
       ]
     }
   }
