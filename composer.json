@@ -1,18 +1,18 @@
 {
-  "name": "test-hook",
-  "description": "This is my first hook.",
+  "name": "page-builder",
+  "description": "This is my first hook just to try it out.",
   "require": {
     "larapack/hooks": "~1.0"
   },
   "autoload": {
     "psr-4": {
-      "TestHook\\": "src/"
+      "PageBuilder\\": "src/"
     }
   },
   "extra": {
     "hook": {
       "providers": [
-        "TestHook\\TestHookServiceProvider"
+        "PageBuilder\\PageBuilderServiceProvider"
       ]
     }
   }
